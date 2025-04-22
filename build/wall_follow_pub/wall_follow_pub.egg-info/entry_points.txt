@@ -1,0 +1,2 @@
+[console_scripts]
+wall_follower = wall_follow_pub.wall_follow_node:main

@@ -1,0 +1,45 @@
+[0.049s] Invoking command in '/home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake /home/batesr6/robotics/lab2/ros-lab-2/ros_gz_description -DCMAKE_INSTALL_PREFIX=/home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description
+[0.475s] -- The C compiler identification is GNU 13.3.0
+[0.716s] -- The CXX compiler identification is GNU 13.3.0
+[0.738s] -- Detecting C compiler ABI info
+[0.936s] -- Detecting C compiler ABI info - done
+[0.945s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.946s] -- Detecting C compile features
+[0.946s] -- Detecting C compile features - done
+[0.975s] -- Detecting CXX compiler ABI info
+[1.168s] -- Detecting CXX compiler ABI info - done
+[1.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.186s] -- Detecting CXX compile features
+[1.187s] -- Detecting CXX compile features - done
+[1.233s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.396s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.918s] -- Configuring done (1.8s)
+[2.027s] -- Generating done (0.1s)
+[2.076s] -- Build files have been written to: /home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description
+[2.083s] Invoked command in '/home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake /home/batesr6/robotics/lab2/ros-lab-2/ros_gz_description -DCMAKE_INSTALL_PREFIX=/home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description
+[2.084s] Invoking command in '/home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description -- -j24 -l24
+[2.162s] Invoked command in '/home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --build /home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description -- -j24 -l24
+[2.164s] Invoking command in '/home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description
+[2.183s] -- Install configuration: ""
+[2.183s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models
+[2.190s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive
+[2.195s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive/model.sdf
+[2.201s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/models/diff_drive/model.config
+[2.212s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ros_gz_description.dsv
+[2.219s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ros_gz_description.sh
+[2.232s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/package_run_dependencies/ros_gz_description
+[2.243s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/parent_prefix_path/ros_gz_description
+[2.249s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ament_prefix_path.sh
+[2.256s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/ament_prefix_path.dsv
+[2.263s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/path.sh
+[2.270s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/environment/path.dsv
+[2.277s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.bash
+[2.285s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.sh
+[2.292s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.zsh
+[2.299s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/local_setup.dsv
+[2.306s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.dsv
+[2.318s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ament_index/resource_index/packages/ros_gz_description
+[2.329s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/cmake/ros_gz_descriptionConfig.cmake
+[2.338s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/cmake/ros_gz_descriptionConfig-version.cmake
+[2.345s] -- Installing: /home/batesr6/robotics/lab2/ros-lab-2/install/ros_gz_description/share/ros_gz_description/package.xml
+[2.392s] Invoked command in '/home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=<ROS2-Jazzy>[\u@\h \W]$ /usr/bin/cmake --install /home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_description

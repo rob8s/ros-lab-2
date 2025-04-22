@@ -1,0 +1,25 @@
+[0.554s] Invoking command in '/home/batesr6/robotics/lab2/ros-lab-2/wall_ws/src/wall_follow_pub': PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batesr6/robotics/lab2/ros-lab-2/wall_ws/install/wall_follow_pub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follow_pub build --build-base /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/build install --record /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/install.log --single-version-externally-managed install_data
+[0.695s] running egg_info
+[0.704s] writing ../../build/wall_follow_pub/wall_follow_pub.egg-info/PKG-INFO
+[0.706s] writing dependency_links to ../../build/wall_follow_pub/wall_follow_pub.egg-info/dependency_links.txt
+[0.707s] writing entry points to ../../build/wall_follow_pub/wall_follow_pub.egg-info/entry_points.txt
+[0.708s] writing requirements to ../../build/wall_follow_pub/wall_follow_pub.egg-info/requires.txt
+[0.710s] writing top-level names to ../../build/wall_follow_pub/wall_follow_pub.egg-info/top_level.txt
+[0.730s] reading manifest file '../../build/wall_follow_pub/wall_follow_pub.egg-info/SOURCES.txt'
+[0.731s] adding license file 'LICENSE'
+[0.731s] writing manifest file '../../build/wall_follow_pub/wall_follow_pub.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.733s] copying wall_follow_pub/wall_follow_node.py -> /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/build/lib/wall_follow_pub
+[0.736s] running install
+[0.739s] running install_lib
+[0.749s] copying /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/build/lib/wall_follow_pub/wall_follow_node.py -> /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub
+[0.753s] byte-compiling /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub/wall_follow_node.py to wall_follow_node.cpython-312.pyc
+[0.756s] running install_data
+[0.756s] running install_egg_info
+[0.775s] removing '/home/batesr6/robotics/lab2/ros-lab-2/wall_ws/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub-0.0.0-py3.12.egg-info' (and everything under it)
+[0.780s] Copying ../../build/wall_follow_pub/wall_follow_pub.egg-info to /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub-0.0.0-py3.12.egg-info
+[0.800s] running install_scripts
+[0.982s] Installing wall_follower script to /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/install/wall_follow_pub/lib/wall_follow_pub
+[0.984s] writing list of installed files to '/home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/install.log'
+[0.999s] Invoked command in '/home/batesr6/robotics/lab2/ros-lab-2/wall_ws/src/wall_follow_pub' returned '0': PS1=<ROS2-Jazzy>[\u@\h \W]$ PYTHONPATH=/home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/batesr6/robotics/lab2/ros-lab-2/wall_ws/install/wall_follow_pub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wall_follow_pub build --build-base /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/build install --record /home/batesr6/robotics/lab2/ros-lab-2/wall_ws/build/wall_follow_pub/install.log --single-version-externally-managed install_data

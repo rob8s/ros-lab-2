@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../build/wall_follow_pub/wall_follow_pub.egg-info
+writing ../../../build/wall_follow_pub/wall_follow_pub.egg-info/PKG-INFO
+writing dependency_links to ../../../build/wall_follow_pub/wall_follow_pub.egg-info/dependency_links.txt
+writing entry points to ../../../build/wall_follow_pub/wall_follow_pub.egg-info/entry_points.txt
+writing requirements to ../../../build/wall_follow_pub/wall_follow_pub.egg-info/requires.txt
+writing top-level names to ../../../build/wall_follow_pub/wall_follow_pub.egg-info/top_level.txt
+writing manifest file '../../../build/wall_follow_pub/wall_follow_pub.egg-info/SOURCES.txt'
+reading manifest file '../../../build/wall_follow_pub/wall_follow_pub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/wall_follow_pub/wall_follow_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/batesr6/robotics/lab2/ros-lab-2/build/wall_follow_pub/build
+creating /home/batesr6/robotics/lab2/ros-lab-2/build/wall_follow_pub/build/lib
+creating /home/batesr6/robotics/lab2/ros-lab-2/build/wall_follow_pub/build/lib/wall_follow_pub
+copying wall_follow_pub/wall_follow_node.py -> /home/batesr6/robotics/lab2/ros-lab-2/build/wall_follow_pub/build/lib/wall_follow_pub
+copying wall_follow_pub/__init__.py -> /home/batesr6/robotics/lab2/ros-lab-2/build/wall_follow_pub/build/lib/wall_follow_pub
+running install
+running install_lib
+creating /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub
+copying /home/batesr6/robotics/lab2/ros-lab-2/build/wall_follow_pub/build/lib/wall_follow_pub/wall_follow_node.py -> /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub
+copying /home/batesr6/robotics/lab2/ros-lab-2/build/wall_follow_pub/build/lib/wall_follow_pub/__init__.py -> /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub
+byte-compiling /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub/wall_follow_node.py to wall_follow_node.cpython-312.pyc
+byte-compiling /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/share/ament_index
+creating /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/share/ament_index/resource_index
+creating /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/share/ament_index/resource_index/packages
+copying resource/wall_follow_pub -> /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/share/wall_follow_pub
+running install_egg_info
+Copying ../../../build/wall_follow_pub/wall_follow_pub.egg-info to /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/lib/python3.12/site-packages/wall_follow_pub-0.0.0-py3.12.egg-info
+running install_scripts
+Installing wall_follower script to /home/batesr6/robotics/lab2/ros-lab-2/install/wall_follow_pub/lib/wall_follow_pub
+writing list of installed files to '/home/batesr6/robotics/lab2/ros-lab-2/build/wall_follow_pub/install.log'

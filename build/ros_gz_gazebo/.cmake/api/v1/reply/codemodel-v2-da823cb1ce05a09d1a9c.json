@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e12e6e2cd1c693e91217.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros_gz_gazebo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BasicSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BasicSystem-4708760b7a7425b268f9.json",
+					"name" : "BasicSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FullSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FullSystem-84815525df08f031faf9.json",
+					"name" : "FullSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_gazebo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_gazebo_uninstall-49fc6bf02b00dd0418d8.json",
+					"name" : "ros_gz_gazebo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b322d3eb59f5042786d5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/batesr6/robotics/lab2/ros-lab-2/build/ros_gz_gazebo",
+		"source" : "/home/batesr6/robotics/lab2/ros-lab-2/ros_gz_gazebo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
