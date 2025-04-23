@@ -14,7 +14,7 @@ class WallFollower(Node):
         self.integral = 0
         self.prev_error = 0
         self.dt = 0.1
-        self.kp = 0.1
+        self.kp = 0.05
         self.ki = 0.0
         self.kd = 0.6
 
@@ -37,7 +37,7 @@ class WallFollower(Node):
         # Turn right in corner
         if front < 1.8:
             cmd.linear.x = 0.2
-            cmd.angular.z = -1.0
+            cmd.angular.z = -0.5
         # Get past left corner
         elif left > 2:
             cmd.linear.x = 0.5

@@ -14,27 +14,31 @@ class WallFollower(Node):
         self.integral = 0
         self.prev_error = 0
         self.dt = 0.1
-        self.kp = 0.1
+        self.kp = 0.05
         self.ki = 0.0
         self.kd = 0.6
 
     def movement_callback(self, msg):
+        # Scanner and command
         front = msg.ranges[0]
         left = msg.ranges[1]
         cmd = Twist()
 
+        # PID controller
         error = left - self.left_follow_dist
         self.integral += error * self.dt
         derivative = (error - self.prev_error) / self.dt
         change = self.kp * error + self.ki * self.integral + self.kd * derivative
         
+        # Base Movement
         cmd.linear.x = 1.0
         cmd.angular.z = change
 
+        # Turn right in corner
         if front < 1.8:
-            # Wall directly in front → turn away immediately
             cmd.linear.x = 0.2
-            cmd.angular.z = -1.0
+            cmd.angular.z = -0.5
+        # Get past left corner
         elif left > 2:
             cmd.linear.x = 0.5
             cmd.angular.z = 0.5
